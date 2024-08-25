@@ -2,7 +2,7 @@ package com.example.envios.service;
 
 import com.example.envios.model.Envio;
 import com.example.envios.repository.EnvioRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -13,7 +13,7 @@ public class EnvioService {
 
     private final EnvioRepository envioRepository;
 
-    @Autowired
+
     public EnvioService(EnvioRepository envioRepository) {
         this.envioRepository = envioRepository;
     }
