@@ -1,0 +1,4 @@
+com\example\envios\EnviosApplicationTests.class
+com\example\envios\controller\EnvioControllerTest.class
+com\example\envios\repository\EnvioRepositoryTest.class
+com\example\envios\service\EnvioServiceTest.class

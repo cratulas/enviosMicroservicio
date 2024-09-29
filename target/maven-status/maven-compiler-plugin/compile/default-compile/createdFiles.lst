@@ -1,0 +1,5 @@
+com\example\envios\EnviosApplication.class
+com\example\envios\service\EnvioService.class
+com\example\envios\repository\EnvioRepository.class
+com\example\envios\controller\EnvioController.class
+com\example\envios\model\Envio.class
