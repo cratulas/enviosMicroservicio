@@ -54,4 +54,18 @@ public class EnvioServiceTest {
         assertNotNull(resultado);
         assertEquals("Comida para gatos", resultado.getDescripcionProducto());
     }
+
+    @Test
+    public void eliminarEnvio_DeberiaEliminarEnvioCorrectamente() {
+        // Arrange
+        Long envioId = 1L;
+        doNothing().when(envioRepository).deleteById(envioId);
+
+        // Act
+        envioService.eliminarEnvio(envioId);
+
+        // Assert
+        verify(envioRepository, times(1)).deleteById(envioId);
+    }
+
 }
